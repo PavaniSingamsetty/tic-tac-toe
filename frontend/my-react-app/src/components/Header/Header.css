@@ -1,0 +1,44 @@
+/* Header.css */
+
+.header {
+    background-color: white ; 
+    color: #350263;
+    display: flex;
+    align-items: center;
+    padding-right: 100px;
+  }
+  
+  .logo-container {
+    flex: 1;
+  }
+
+  .logo {
+    height: 60px;
+  }
+  
+  .title {
+    flex: 2;
+    text-align: center;
+  }
+  
+  .user-actions {
+    flex: 1;
+    text-align: right;
+  }
+  
+  .login-button,
+  .logout-button {
+    background-color: #350263; 
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-left: 10px;
+  }
+  
+  .login-button:hover,
+  .logout-button:hover {
+    background-color: #29044A; 
+  }
+  
